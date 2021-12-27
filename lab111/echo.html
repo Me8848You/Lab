@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .main{
+            background-color: brown;
+            width: 35%,*;
+        }
+        /* .third{
+            float: right;
+            clear: right;
+        } */
+        .body{
+            float: right;
+            /* background-color: cornflowerblue; */
+            clear: right;
+        }
+        .in1{
+            padding: 5px 5px 5px 5px;
+            margin: 4px 4px 4px 4px;
+            /* float: right; */
+        }
+        sup{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="second">
+            <h2>Mypage</h2>
+        </div>
+        <div class="third">
+            <form action="bck.php">
+                <!-- <div class="in1"> -->
+                    <input type="email" name="email" id="email" placeholder="Email">
+                <!-- </div> -->
+                <!-- <div class="in1"> -->
+                    <input type="password" name="pass" id="pass" placeholder="Password">
+                <!-- </div> -->
+                <!-- <div class="in1"> -->
+                    <input type="submit" value="Login">
+                <!-- </div> -->
+            </form>
+        </div>
+    </div>
+    <div class="body">
+
+        
+        <h2>Are you new user?*</h2>
+        <div class="A1">
+            Name<sup>*</sup>:<input type="text" name="text" id="text">
+        </div>
+        <div class="A1">
+            Password <sup>*</sup>: <input type="password" name="text" id="pass">
+        </div>
+        <div class="A1">
+            Email <sup>*</sup>: <input type="email" name="text" id="email">
+        </div>
+        <div class="A1">
+            <input type="submit" value="SignIn" >
+            <input type="reset" value="Reset">
+        </div>
+        <div class="A1">
+            * are compulsory
+        </div>
+    </div>
+</body>
+</html>
